@@ -1,0 +1,34 @@
+{
+  "name": "vx-basic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@amcharts/amcharts3-react": "^3.1.0",
+    "@vx/axis": "0.0.168",
+    "@vx/event": "0.0.165",
+    "@vx/glyph": "0.0.165",
+    "@vx/gradient": "0.0.165",
+    "@vx/group": "0.0.165",
+    "@vx/mock-data": "0.0.165",
+    "@vx/scale": "0.0.165",
+    "@vx/shape": "0.0.168",
+    "@vx/tooltip": "0.0.165",
+    "npm": "^6.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-motion": "^0.5.2",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.4.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3"
+  }
+}
